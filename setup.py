@@ -11,6 +11,6 @@ setup(
         'requests>=2.3.0',
         'six>=1.10.0',
     ],
-    download_url= 'https://github.com/fondberg/spotipy/tarball/2.4.5-dev1',
+    download_url= 'https://github.com/fondberg/spotipy/tarball/2.4.5-dev2',
     license='LICENSE.txt',
     packages=['spotipy'])
