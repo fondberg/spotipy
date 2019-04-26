@@ -1,15 +1,16 @@
 from setuptools import setup
 
 setup(
-    name='spotipy',
-    version='2.4.4',
-    description='simple client for the Spotify Web API',
-    author="@plamere",
-    author_email="paul@echonest.com",
+    name='fondberg-spotipy',
+    version='2.4.5-dev1',
+    description='Forked for later release simple client for the Spotify Web API',
+    author="@fondberg",
+    author_email="niklas.fondberg@gmail.com",
     url='http://spotipy.readthedocs.org/',
     install_requires=[
         'requests>=2.3.0',
         'six>=1.10.0',
     ],
+    download_url= 'https://github.com/fondberg/spotipy/tarball/2.4.5-dev1',
     license='LICENSE.txt',
-    packages=['spotipy'])
+    packages=['fondberg-spotipy'])
