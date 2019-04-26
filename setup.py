@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='fondberg-spotipy',
-    version='2.4.5-dev1',
+    version='2.4.5-dev2',
     description='Forked for later release simple client for the Spotify Web API',
     author="@fondberg",
     author_email="niklas.fondberg@gmail.com",
@@ -13,4 +13,4 @@ setup(
     ],
     download_url= 'https://github.com/fondberg/spotipy/tarball/2.4.5-dev1',
     license='LICENSE.txt',
-    packages=['fondberg-spotipy'])
+    packages=['spotipy'])
